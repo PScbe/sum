@@ -659,8 +659,9 @@ body {
     }
 
     .chart-bar-fill {
-        min-width: 40px;
-        padding-right: 5px;
+        min-width: 60px;
+        padding-right: 8px;
+        padding-left: 8px;
         justify-content: center;
     }
 
@@ -668,6 +669,8 @@ body {
         font-size: 0.75rem;
         position: relative;
         z-index: 1;
+        white-space: nowrap;
+        overflow: visible;
     }
 }
 
