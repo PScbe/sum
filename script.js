@@ -1,6 +1,6 @@
 // Google Sheets CSV URLs
-const WORKS_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRLtabZ-6eyDtjEwHsB6AdwBvMbc4ihVNRRUoyCK-HnqRBrNNwBTDNOBK-0cdlCQ0vZ66p_y58fi0qc/pub?output=csv&gid=0';
-const EXPENSES_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRLtabZ-6eyDtjEwHsB6AdwBvMbc4ihVNRRUoyCK-HnqRBrNNwBTDNOBK-0cdlCQ0vZ66p_y58fi0qc/pub?output=csv&gid=1890560582';
+const WORKS_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmMf2AJxpU30V2DSfAL_ibam5bZtNBYVOoYgRIvqFbFFV4Bh1rJnPD7lZnRsAR-A3zSYGlfJ441nii/pub?output=csv&gid=0';
+const EXPENSES_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTmMf2AJxpU30V2DSfAL_ibam5bZtNBYVOoYgRIvqFbFFV4Bh1rJnPD7lZnRsAR-A3zSYGlfJ441nii/pub?output=csv&gid=1890560582';
 
 // Data storage
 let worksData = [];
@@ -356,4 +356,3 @@ function setupSearch() {
         populateExpensesTable(filteredData);
     });
 }
-
